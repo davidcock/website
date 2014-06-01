@@ -7,15 +7,69 @@
 </head>
 <body> <div id="main">
 	<h1>David Cock</h1>
-	<div><img src="imgs/big_mugshot.jpg"></div>
-	<div>This is my personal homepage, for anything work or university related,
-	go <a
-	href="http://www.cse.unsw.edu.au/~davec">here</a>.
-	</div>
+	<div>
+        <table><tr>
+        <td><img src="imgs/big_mugshot.jpg"></td>
+        <td style="vertical-align:text-top">
+            Postgraduate researcher,
+              <a href="http://www.ssrg.nicta.com.au/">Software Systems Research
+                Group, NICTA.</a><br>
+            Email: David.Cock@nicta.com.au<br>
+            Telephone: (+61) 2 8306 0486
+        </td>
+        </tr></table>
+    </div>
 
-	<h2>Contact</h2>
+    <h2>CV</h2>
+    <dl>
+      <dt>2000-2004</dt><dd>B.Sc. (hons), UNSW</dd>
+      <dt>2005-2009</dt><dd>Research Engineer, L4.verified.</dd>
+      <dt>2010-2014</dt><dd>Ph.D., UNSW, "Leakage in Trustworthy Systems",
+        under the supervision of <a
+        href="http://www.ssrg.nicta.com.au/people/?cn=Gernot+Heiser">
+        Dr. Gernot Heiser.</a></dt>
+    </dl>
 
     <h2>Projects</h2>
+    <h3>seL4</h3>
+    <p>I worked as a research engineer (or research assistant), under the
+    supervision of <a href=
+    "http://www.ssrg.nicta.com.au/people/?cn=Gerwin+Klein">Dr. Gerwin
+    Klein</a>, on the <a
+    href="http://ssrg.nicta.com.au/projects/seL4/">L4.verified project</a>,
+    which ran from 2005 until 2009, and produced the world's first formally
+    verified general-purpose operating-system <a href=
+    "#Klein_EHACDEEKNSTW_09">kernel</a>.</p>
+
+    <p>I was responsible for the high-performance C and assembly
+    implementation of the verified ARM kernel, which achieved the highest
+    published IPC performance of any microkernel on this architecture.</p>
+
+    <p>I was also heavily involved in producing our underlying reasoning
+    framework, in particular our <a href= "#Cock_KS_08">monadic Hoare
+    calculus</a>.</p>
+
+    <h3>Verified Bitfield Generation</h3>
+    <p>We were able to automatically generate a substantial fraction of the
+    code in seL4, and its associated proof of correctness, namely the
+    low-level manipulation of packed structures (or bitfields).  A description
+    of this work has been <a href="#Cock_08">published</a>, and the tool
+    itself is <a href=
+    "http://ssrg.nicta.com.au/software/TS/bitfield_gen/">publically
+    available</a></p>
+
+    <h3>pGCL in Isabelle</h3>
+    <p>To support my PhD work, I developed a formalisation of the
+    probabilistic programming logic/refinement calculus pGCL, of McIver and
+    Morgan.  This package is available under an open source license.  For
+    details see <a href="pGCL/index.html">here</a>.</p>
+
+    <h3>Covert Channel Analysis Suite</h3>
+    <p>Also as part of my PhD work, I conducted a systematic large-scale
+    empirical study of side-channel bandwidth on seL4.  The toolkit that I
+    built up in the course of this work, in order to efficiently process and
+    analyse large sparse channel matrices, has also now been <a href=
+    "http://ssrg.nicta.com.au/software/TS/channel_tools/">released</a>.</p>
 
     <h2>Publications</h2>
     <div>
