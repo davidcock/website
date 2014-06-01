@@ -1,0 +1,2 @@
+/<!--pubs-->/    { exit }
+                 { print }
