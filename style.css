@@ -36,6 +36,10 @@ h2 {
 	font-variant: small-caps;
 }
 
+h3 {
+	font-family: sans-serif;
+}
+
 div#publications span.title {
 	font-style: italic;
 }
