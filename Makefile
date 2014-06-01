@@ -6,7 +6,7 @@ index.html: index_pre.html publications.html
 	awk -f tools/footer.awk < index_pre.html >> index.html
 
 publications.html: publications.bib
-	bibtex2html -nodoc $<
+	bibtex2html -nodoc -s alpha -nokeywords -d -r -noheader -nobibsource $<
 
 clean:
 	rm -f index.html publications.html publications_bib.html
