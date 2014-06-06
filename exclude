@@ -1,0 +1,6 @@
+.hg
+exclude
+index_pre.html
+Makefile
+publications.bib
+tools
