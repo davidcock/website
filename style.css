@@ -5,13 +5,15 @@ body {
 div#main {
 	background-color: white;
 	max-width: 55em;
-	margin-left: 10%;
-	padding: 1em 1.5em 1em 1em;
+	margin-left: auto;
+	margin-right: auto;
+	padding: 1em;
 }
 
 div#main > div {
 	margin-left: 1em;
     max-width: 50em;
+    text-align: justify;
 }
 
 dt {
