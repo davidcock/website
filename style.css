@@ -4,13 +4,14 @@ body {
 
 div#main {
 	background-color: white;
-	width: 80%;
+	max-width: 55em;
 	margin-left: 10%;
-	padding: 5px 10px 5px 10px;
+	padding: 1em 1.5em 1em 1em;
 }
 
 div#main > div {
-	margin-left: 20px;
+	margin-left: 1em;
+    max-width: 50em;
 }
 
 dt {
@@ -38,8 +39,4 @@ h2 {
 
 h3 {
 	font-family: sans-serif;
-}
-
-div#publications span.title {
-	font-style: italic;
 }
