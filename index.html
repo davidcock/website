@@ -98,13 +98,24 @@
     <a href="https://stage.ssrg.nicta.com.au/projects/TS/sidechannels.pml">
     here</a>.
     </p>
+    <p>The figure on the right shows the effectiveness of one of our
+    mitigation strategies, <em>scheduled delivery</em>, used here to mitigate
+    the <a href="https://isc.sans.edu/diary/OpenSSL+Security+Advisory+including+Lucky+Thirteen%3A+Breaking+the+TLS+and+DTLS+Record+Protocols/15085">
+    Lucky 13 attack</a> against <a
+    href="https://www.openssl.org/">OpenSSL</a>.  This can be implemented
+    without kernel modification, and achieves higher performance and better
+    security than a constant-time implementation.  For more information, see
+    our <a href="#Cock_GMH_14">CCS paper</a>.
+    </p>
     </div>
 
     <h3>pGCL in Isabelle</h3>
     <p>To support my PhD work, I developed a formalisation of the
     probabilistic programming logic/refinement calculus pGCL, of McIver and
-    Morgan.  This package is available under an open source license.  For
-    details see <a href="pGCL/index.html">here</a>.</p>
+    Morgan.  This package is available under an open source license, and is
+    now in the <a href="http://afp.sourceforge.net/entries/pGCL.shtml">archive
+    of formal proofs</a>.  For recent versions of, see <a
+    href="pGCL/index.html">here</a>.</p>
 
     <h3>Covert Channel Analysis Suite</h3>
     <div style="min-height:15em">
@@ -115,6 +126,10 @@
     built up in the course of this work, in order to efficiently process and
     analyse large sparse channel matrices, has also now been <a href=
     "http://ssrg.nicta.com.au/software/TS/channel_tools/">released</a>.</p>
+    <p>The figure on the right shows the residual channel on and Exynos4412,
+    after using instruction-based scheduling to mitigate the cache-contention
+    channel.  For more details, see the <a href="#Cock_GMH_14">paper</a>, or
+    my Ph.D. thesis, available below.</p>
     </div>
 
     </div>
@@ -195,6 +210,20 @@ David Cock.
   Interactive Theorem Proving</em>, pages 1--15, Vienna, Austria, July 2014.
   Springer.
 [&nbsp;<a href="papers/Cock_14.pdf">.pdf</a>&nbsp;]
+
+</td>
+</tr>
+
+
+<tr valign="top">
+<td align="right" class="bibtexnumber">
+[<a name="pGCL-AFP">Coc14c</a>]
+</td>
+<td class="bibtexitem">
+David Cock.
+ pGCL for Isabelle.
+ <em>Archive of Formal Proofs</em>, July 2014.
+ <a href="http://afp.sf.net/entries/pGCL.shtml">http://afp.sf.net/entries/pGCL.shtml</a>, Formal proof development.
 
 </td>
 </tr>
