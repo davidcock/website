@@ -7,6 +7,9 @@
 
 @string{cacm = "Communications of the "#acm}
 
+@string{ccs = acm#" Conference on Computer and Communications Security"}
+@string{ccs14 = proc#"21st "#ccs}
+
 @string{aisec = acm#" Workshop on Artificial Intelligence and Security"}
 @string{aisec11 = proc#" 4th "#aisec}
 
@@ -161,12 +164,33 @@
     url              = {papers/Cock_14.pdf},
 }
 
-@phdthesis{Cock_14a,
-    author = {David Cock},
-    title = {Leakage in Trustworthy Systems},
-    school = {University of New South Wales},
-    year = {2014},
-    note = {(under examination)},
+@phdthesis{Cock:phd,
+    school           = {Computer Science and Engineering},
+    supervisor       = {gernot},
+    author           = {David Cock},
+    format           = {pdf},
+    author_logins    = {dcock},
+    month            = aug,
+    nictapubid       = {8298},
+    year             = {2014},
+    keywords         = {nicta, pirs_0, ssrg, sidechannels,covertchannels},
+    title            = {Leakage in Trustworthy Systems},
+    type             = {PhD Thesis},
+    address          = {Sydney, Australia},
+    url              = {papers/thesis.pdf},
+}
+
+@inproceedings{Cock_GMH_14,
+    author           = {David Cock and Qian Ge and Toby Murray and
+                        Gernot Heiser},
+    format           = {pdf},
+    month            = nov,
+    year             = {2014},
+    title            = {The Last Mile: An Empirical Study of Timing Channels on {seL4}},
+    type             = {Conference Paper},
+    booktitle        = ccs14,
+    address          = {Scottsdale, Arizona, USA},
+    url              = {papers/Cock_GMH_14.pdf},
 }
 
 @inproceedings{Derrin_EKCC_06,
