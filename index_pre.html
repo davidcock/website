@@ -52,14 +52,20 @@
     <h2>Projects</h2>
     <div>
     <h3>seL4</h3>
+    <div style="min-height:5em">
+    <a href="http://sel4.systems">
+    <img src="imgs/sel4-logo.svg"
+         style="float:right; height:5em; margin: 1em"/>
+    </a>
     <p>I worked as a research engineer (or research assistant), under the
     supervision of <a href=
-    "http://www.ssrg.nicta.com.au/people/?cn=Gerwin+Klein">Dr. Gerwin
+    "http://www.ssrg.nicta.com.au/people/?cn=Gerwin+Klein">Gerwin
     Klein</a>, on the <a
     href="http://ssrg.nicta.com.au/projects/seL4/">L4.verified project</a>,
     which ran from 2005 until 2009, and produced the world's first formally
     verified general-purpose operating-system <a href=
-    "#Klein_EHACDEEKNSTW_09">kernel</a>.</p>
+    "#Klein_EHACDEEKNSTW_09">kernel</a>, which is now available as 
+    <a href="http://sel4.systems">open source!</a></p>
 
     <p>I was responsible for the high-performance C and assembly
     implementation of the verified ARM kernel, which achieved the highest
@@ -68,6 +74,7 @@
     <p>I was also heavily involved in producing our underlying reasoning
     framework, in particular our <a href= "#Cock_KS_08">monadic Hoare
     calculus</a>.</p>
+    </div>
 
     <h3>Verified Bitfield Generation</h3>
     <p>We were able to automatically generate a substantial fraction of the
@@ -78,6 +85,21 @@
     "http://ssrg.nicta.com.au/software/TS/bitfield_gen/">publically
     available</a></p>
 
+    <h3>Timing Channels in seL4</h3>
+    <div style="min-height:15em">
+    <img src="imgs/tls_times.svg"
+         style="float:right; height:15em; margin: 1em"/>
+    <p>Since the <a
+    href="https://stage.ssrg.nicta.com.au/projects/TS/infoflow.pml">
+    noninterference proof</a> for seL4 showed that <em>storage channels</em>
+    could be provable eliminated in a kernel such as seL4, my Ph.D. work was
+    on tackling <em>timing channels</em>, which are invisible to the type of
+    formal specification used for seL4.  For more detail on this project, see
+    <a href="https://stage.ssrg.nicta.com.au/projects/TS/sidechannels.pml">
+    here</a>.
+    </p>
+    </div>
+
     <h3>pGCL in Isabelle</h3>
     <p>To support my PhD work, I developed a formalisation of the
     probabilistic programming logic/refinement calculus pGCL, of McIver and
@@ -85,11 +107,16 @@
     details see <a href="pGCL/index.html">here</a>.</p>
 
     <h3>Covert Channel Analysis Suite</h3>
+    <div style="min-height:15em">
+    <img src="imgs/exynos4_pmu.svg"
+         style="float:right; height:15em; margin: 1em"/>
     <p>Also as part of my PhD work, I conducted a systematic large-scale
     empirical study of side-channel bandwidth on seL4.  The toolkit that I
     built up in the course of this work, in order to efficiently process and
     analyse large sparse channel matrices, has also now been <a href=
     "http://ssrg.nicta.com.au/software/TS/channel_tools/">released</a>.</p>
+    </div>
+
     </div>
 
     <h2>Talk Slides</h2>
